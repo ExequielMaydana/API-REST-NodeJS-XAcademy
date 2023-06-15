@@ -1,10 +1,10 @@
 API REST Libraries 🙌.
 Con NodeJS-Express y SQLite.
 
-Comence instalando las siguientes dependencias:
-bcrypt: Para el cifrado de datos.
-dotenv: Para el manejo de variables de entorno.
-jsonwebtoken: Para la autenticacion.
-sequelize: Para manipular mi bd.
-passport: Tambien para la autenticacion.
-babel: Para convertir codigo moderno a codigo que pueda ser entendido por cada navegador.
+1. Comence instalando las siguientes dependencias:
+2. bcrypt: Para el cifrado de datos.
+3. dotenv: Para el manejo de variables de entorno.
+4. jsonwebtoken: Para la autenticacion.
+5. sequelize: Para manipular mi bd.
+6. passport: Tambien para la autenticacion.
+7. babel: Para convertir codigo moderno a codigo que pueda ser entendido por cada navegador.
