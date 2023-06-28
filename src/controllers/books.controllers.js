@@ -27,11 +27,11 @@ const createBooks = async (req, res, next) => {
 const getAllBooks = async (req, res, next) => {
   try {
     const todoBooks = await books.findAll({
-      include:[
+      include: [
         {
           model: libraries,
-        }
-      ]
+        },
+      ],
     });
     res.status(200).json({ items: todoBooks.length, books: todoBooks });
   } catch (error) {
@@ -46,6 +46,7 @@ const getBookById = async (req, res, next) => {
       where: {
         id: req.params.id,
       },
+      include: [{ model: libraries }],
     });
 
     if (!bookFound) {
