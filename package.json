@@ -1,7 +1,7 @@
 {
   "name": "restapi-libraries",
   "version": "1.0.0",
-  "description": "Rest API de librerias con NodeJS-Express / Sequelize / SQLite",
+  "description": "API REST de librerias con NodeJS-Express / Sequelize / SQLite",
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir build",
@@ -18,8 +18,10 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
     "sequelize": "^6.32.0",
-    "sqlite3": "^5.1.6"
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.5",
